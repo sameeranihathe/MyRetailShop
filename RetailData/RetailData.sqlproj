@@ -6,13 +6,13 @@
     <Name>RetailData</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{a2d580bd-24b5-4399-a963-4c2a7a963a6b}</ProjectGuid>
+    <ProjectGuid>{b3df8b15-d216-45f2-901f-78ee86e40c97}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
-    <RootNamespace>RetailData</RootNamespace>
-    <AssemblyName>RetailData</AssemblyName>
+    <RootNamespace>Database1</RootNamespace>
+    <AssemblyName>Database1</AssemblyName>
     <ModelCollation>1033, CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
@@ -61,8 +61,5 @@
     <Folder Include="dbo\Views" />
     <Folder Include="dbo\Stored Procedures" />
     <Folder Include="PublishLocations" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="PublishLocations\RetailData.publish.xml" />
   </ItemGroup>
 </Project>

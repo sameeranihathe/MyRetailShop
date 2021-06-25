@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetailManagerAPI", "RetailManagerAPI\RetailManagerAPI.csproj", "{2C1AA706-1DE7-466E-B804-793CED2E4623}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RetailData", "RetailData\RetailData.sqlproj", "{A2D580BD-24B5-4399-A963-4C2A7A963A6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{2C1AA706-1DE7-466E-B804-793CED2E4623}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C1AA706-1DE7-466E-B804-793CED2E4623}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C1AA706-1DE7-466E-B804-793CED2E4623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D580BD-24B5-4399-A963-4C2A7A963A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D580BD-24B5-4399-A963-4C2A7A963A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D580BD-24B5-4399-A963-4C2A7A963A6B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A2D580BD-24B5-4399-A963-4C2A7A963A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D580BD-24B5-4399-A963-4C2A7A963A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D580BD-24B5-4399-A963-4C2A7A963A6B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
